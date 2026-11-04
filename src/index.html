@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ست و دنباله - SetDombaleh</title>
+    <meta name="description" content="ست و دنباله یک بازی کارتی دو نفره است که در آن هر بازیکن ده کارت دارد و باید کارت‌هایش را در قالب ست...">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Tahoma', 'Segoe UI', sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            max-width: 700px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .description {
+            color: #34495e;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+        .status {
+            background: #fff3cd;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ffeeba;
+        }
+        .info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .info-row:last-child {
+            border-bottom: none;
+        }
+        .info-label {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .info-value {
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ست و دنباله</h1>
+        <p class="subtitle">SetDombaleh</p>
+
+        <div class="status">
+            📚 این بازی در حال حاضر در فاز مستندسازی است.<br>
+            کد منبع به‌زودی پیاده‌سازی خواهد شد.
+        </div>
+
+        <p class="description">ست و دنباله یک بازی کارتی دو نفره است که در آن هر بازیکن ده کارت دارد و باید کارت‌هایش را در قالب ست (سه یا چهار کارت هم‌عدد) یا دنباله (سه کارت هم‌رنگ متوالی) دسته‌بندی کند. در هر نوبت، بازیکن یک کارت از انبار برمی‌دارد یا از دورریز، و یک کارت دور می‌ریزد. هدف این است که اولین نفری باشید که همه کارت‌هایش را در دسته‌بندی‌های معتبر قرار می‌دهد.</p>
+
+        <div class="info">
+            <div class="info-row">
+                <span class="info-label">دسته‌بندی:</span>
+                <span class="info-value">بازی‌های کارتی</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">ژانر:</span>
+                <span class="info-value">بازی کارتی دسته‌بندی (Meld-making)</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">تعداد بازیکنان:</span>
+                <span class="info-value">۲ تا ۴ نفر</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">سطح دشواری:</span>
+                <span class="info-value">متوسط</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">زمان تخمینی توسعه:</span>
+                <span class="info-value">۳ تا ۴ هفته</span>
+            </div>
+        </div>
+
+        <p style="color: #95a5a6; font-size: 0.9em; margin-top: 20px;">
+            برای اطلاعات کامل به فایل <a href="../../README.md">README.md</a> مراجعه کنید.
+        </p>
+    </div>
+</body>
+</html>
