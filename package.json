@@ -1,0 +1,23 @@
+{
+  "name": "setdombaleh",
+  "version": "0.0.1",
+  "description": "ست و دنباله - بازی کارتی دسته‌بندی (Meld-making)",
+  "main": "src/js/main.js",
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "build": "echo 'Build script to be added'",
+    "test": "echo 'Tests to be added'"
+  },
+  "keywords": [
+    "game",
+    "persian",
+    "farsi",
+    "card-games"
+  ],
+  "author": "andrbi107",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrbi107/SetDombaleh.git"
+  }
+}
